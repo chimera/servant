@@ -4,7 +4,7 @@ This is the repository for the Arduino sketch we're using to control our electro
 
 **It's very stupid**
 
-If it receives a string of `"1"` via the serial connection, it does a *digital write* to *pin 7* which opens our electronic door latch. 
+If it receives a string of `"1"` via the serial connection at a baud of *19200*, it does a *digital write* to *pin 7* which opens our electronic door latch. 
 
 Ideally we could would not have to use an Arduino to do something so simple, but it works and we're a bit lazy.
 
